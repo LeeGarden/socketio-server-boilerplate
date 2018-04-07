@@ -1,0 +1,31 @@
+{
+  "name": "socketio-server",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/Quynh-Nguyen/socketio-server.git",
+  "author": "Drone Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bugsnag": "^2.3.1",
+    "component-emitter": "^1.2.1",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "flat": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "hashids": "^1.1.4",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "schemapack": "^1.4.2",
+    "socket.io": "^2.1.0",
+    "string-format": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" ."
+  }
+}

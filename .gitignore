@@ -1,0 +1,12 @@
+### Node ###
+/node_modules
+package-lock.json
+yarn-error.log
+yarn.lock
+
+### enviroment
+.env
+.idea/
+
+#Mac
+.DS_Store
